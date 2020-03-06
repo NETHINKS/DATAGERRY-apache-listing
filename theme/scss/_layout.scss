@@ -1,0 +1,48 @@
+html, body {
+  height: $body-height;
+}
+
+body {
+  border: $body-border;
+
+  &:before, &:after {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: $body-border-size;
+  }
+
+  &:before {
+    top: 0;
+  }
+
+  &:after {
+    bottom: 0;
+  }
+
+}
+
+header {
+  padding-top: $header-padding-top;
+  padding-bottom: $header-padding-bottom;
+
+  img {
+    max-width: $header-image-width;
+    margin: 0 auto;
+  }
+
+  small {
+    display: block;
+    text-align: center;
+  }
+
+  #page-name {
+    color: $page-name-color;
+  }
+}
+
+footer {
+  font-size: $footer-font-size;
+  text-align: $footer-text-align;
+}

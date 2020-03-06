@@ -1,0 +1,25 @@
+{
+  "name": "datagerry-apache-listing",
+  "version": "1.0.0",
+  "description": "Custom Apache directory listing style for DATAGERRY",
+  "scripts": {
+    "build": "node-sass theme/style.scss theme/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NETHINKS/DATAGERRY-apache-listing.git"
+  },
+  "author": "Michael Batz, Mark Heumüller, NETHINKS GmbH",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/NETHINKS/DATAGERRY-apache-listing/issues"
+  },
+  "homepage": "https://github.com/NETHINKS/DATAGERRY-apache-listing#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}

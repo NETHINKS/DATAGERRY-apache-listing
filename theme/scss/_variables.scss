@@ -1,0 +1,25 @@
+/*
+ * Layout
+ */
+
+$body-height: 100%;
+$body-border-color: $gray-200;
+$body-border-size: 10px;
+$body-border-style: solid;
+$body-border: $body-border-size $body-border-style $body-border-color;
+
+$header-padding-top: 2rem;
+$header-padding-bottom: 2rem;
+$header-image-width: 300px;
+
+$page-name-color: $gray-700;
+
+$footer-font-size: .8rem;
+$footer-text-align: right;
+
+/*
+ * Table
+ */
+
+$table-width: 100%;
+$table-icon-filter: invert(.6);

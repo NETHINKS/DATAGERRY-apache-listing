@@ -1,0 +1,20 @@
+# DATAGERRY listing theme
+# Example configuration
+
+Options +Indexes
+
+<IfModule mod_autoindex.c>
+    IndexHeadInsert "<meta name='viewport' content='width=device-width, initial-scale=1'><meta http-equiv='X-UA-Compatible' content='IE=edge'>"
+    IndexOptions +HTMLTable +FancyIndexing +FoldersFirst +IconsAreLinks +IgnoreCase +SuppressDescription +XHTML +IconWidth=16 +IconHeight=16 +NameWidth=*
+    IndexIgnore .htaccess /theme
+    IndexStyleSheet /theme/style.css
+
+    HeaderName /theme/header.html
+    ReadmeName /theme/footer.html
+
+    DefaultIcon /theme/img/icons/datagerry.svg
+    AddIcon /theme/img/icons/undo.svg ..
+    AddIcon /theme/img/icons/folder-open.svg ^^DIRECTORY^^
+    AddIcon /theme/img/icons/redhat.svg .rpm
+    AddIcon /theme/img/icons/archive.svg .tar.gz
+</IfModule>
